@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <!-- Theme Colors -->
+    <color name="color_primary">#424242</color>
+    <color name="color_primary_dark">#212121</color>
+    <color name="color_accent">#009688</color>
+
+    <!-- Icon Colors -->
+    <color name="icon_background">#FFF</color>
+
+    <!-- Project Name -->
+    <string name="app_name">RPG Maker MV</string>
+
+    <!-- Web Linking -->
+    <string name="app_scheme">https</string>
+    <string name="app_host">altimit.systems</string>
+
+    <!-- Quit Message -->
+    <string-array name="quit_message">
+        <!-- Remove all items (empty string-array) to disable quit warning -->
+        <item>Do you wish to quit $1?</item>
+        <item>Any unsaved progress will be lost.</item>
+    </string-array>
+
+</resources>

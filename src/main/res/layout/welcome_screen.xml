@@ -1,0 +1,47 @@
+<!-- res/layout/welcome_screen.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    android:gravity="center"
+    android:scrollbarThumbHorizontal="@android:color/holo_green_light"
+    android:scrollbarThumbVertical="@android:color/holo_green_dark"
+    android:scrollbarTrackHorizontal="@android:color/holo_green_dark"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/welcomeMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="¡Bienvenido a PokemonU!"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="177dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/welcomeMessage"
+        android:layout_marginTop="30dp"
+        android:background="#237A27"
+        android:text="Invitado "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/studentButton"
+        android:layout_width="177dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/welcomeMessage"
+        android:layout_alignEnd="@+id/welcomeMessage"
+        android:layout_alignRight="@+id/welcomeMessage"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#237A27"
+        android:text="Estudiante"
+        android:textSize="20sp" />
+
+    <!-- Este margen opcional añade espacio entre el TextView y el Button -->
+</RelativeLayout>
